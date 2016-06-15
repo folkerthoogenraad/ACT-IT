@@ -1,9 +1,47 @@
-body {
+* {
   margin:0;
   padding:0;
+  font-family: sans-serif;
 }
 .screen {
   width : 100vw;
   height : 100vh;
-  background-color: red;
+  background: linear-gradient(white, gray);
+}
+
+.login-header{
+  text-align: center;
+  height:60%;
+}
+
+.login-content {
+  height:40%;
+  text-align: center;
+}
+
+.login-welcome {
+  padding-top:20%;
+  color: white;
+  font-size: 32px;
+  text-shadow: 2px 2px 5px gray;
+  font-weight: bold;
+}
+
+.login-button{
+  display: block;
+  outline: 3px solid red;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+
+  color: red;
+  background-color: #eee;
+  padding:16px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  float:center;
+  max-width: 60vw;
+}
+.login-button:hover{
+  background-color: #999;
 }
