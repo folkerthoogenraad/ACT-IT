@@ -13,6 +13,14 @@
   text-align: center;
   height:60%;
 }
+.login-header-small{
+  text-align: center;
+  height:40%;
+}
+.login-content-big {
+  height:60%;
+  text-align: center;
+}
 
 .login-content {
   height:40%;
@@ -35,13 +43,23 @@
   font-weight: bold;
 
   color: red;
-  background-color: #eee;
+  background-color: #ddd;
   padding:16px;
   margin: 0 auto;
   margin-bottom: 16px;
   float:center;
-  max-width: 60vw;
+  width: 50vw;
 }
 .login-button:hover{
-  background-color: #999;
+  background-color: #ccc;
+}
+
+.login-text {
+  background-color: #eee;
+  padding:12px;
+  margin: 0 auto;
+  font-size: 18px;
+  border: 0;
+  margin-bottom: 16px;
+  width: 80vw;
 }
