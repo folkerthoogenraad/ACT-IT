@@ -64,7 +64,7 @@ p {
 }
 .video-example {
   width:80vw;
-  height:30vh;
+  height:auto;
   display:block;
   margin: 0 auto;
 }
