@@ -19,7 +19,7 @@ window.onload = function(){
         if(x > Math.PI*2){
           x = Math.PI*2;
           done = true;
-          window.location = "login.html";
+          window.location = "wheel_confirm.html";
         }
         draw(Math.sin(x) * 16, 0);
         requestAnimationFrame(f);

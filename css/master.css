@@ -9,6 +9,31 @@
   background: linear-gradient(rgb(245,245,245), #ddd);
 }
 
+.overlay {
+  position:absolute;
+  top:0;
+  right:0;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width : 100vw;
+  height : 100vh;
+}
+.overlay-button {
+  background-color: #eee;
+  box-shadow: 2px 2px 5px black;
+  padding:8px;
+  display:block;
+  margin-top: 16px;
+  color:#c00;
+  margin: 0 auto;
+  text-decoration: none;
+  width:30vw;
+}
+
+.overlay h1 {
+  color:#0ff;
+}
+
 .top-bar{
   text-align: center;
   height:7vh;
