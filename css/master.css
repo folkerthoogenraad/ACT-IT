@@ -63,10 +63,12 @@ p {
   padding: 16px;
 }
 .video-example {
-  width:80vw;
-  height:auto;
-  display:block;
+  width:80vw;/*16*/
+  height:45vw;/*9*/
   margin: 0 auto;
+}
+.invisible{
+  display:none;
 }
 
 .top-bar{

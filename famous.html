@@ -6,6 +6,7 @@
     <title>ACT-IT</title>
     <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="js/videoplayer.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="screen">
@@ -20,8 +21,10 @@
       </div>
       <img class="image-min" src="http://67.media.tumblr.com/81bbfa97991b0d8f6c7619bd02c2c76c/tumblr_n8jg1jzlAe1rh1v81o4_1280.png" alt="Plaatje" />
       <h1>Voorbeeld</h1>
-      <video class="video-example" controls src="videos/callonme.webm">
-      </video>
+      <video class="invisible" id="video" controls src="videos/callonme.webm" preload></video>
+      <div class="centered">
+        <canvas class="video-example" id="videocanvas" width="300" height="300"></canvas>
+      </div>
       <p>
         <a href="index.html" class="overlay-button">START</a>
       </p>
