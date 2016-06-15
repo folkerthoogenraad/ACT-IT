@@ -18,6 +18,31 @@
   width : 100vw;
   height : 100vh;
 }
+
+.centered{
+  display:block;
+  margin:0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color:#900;
+  text-align: center;
+}
+p {
+  margin:16px;
+}
+
+.image-min {
+  max-width: 20vw;
+  max-height: 20vh;
+  display:block;
+  margin:0 auto;
+  text-align: center;
+}
+
 .overlay-button {
   background-color: #eee;
   box-shadow: 2px 2px 5px black;
@@ -32,6 +57,16 @@
 
 .overlay h1 {
   color:#0ff;
+  padding: 8px;
+}
+.overlay p {
+  padding: 16px;
+}
+.video-example {
+  width:80vw;
+  height:auto;
+  display:block;
+  margin: 0 auto;
 }
 
 .top-bar{
@@ -53,8 +88,6 @@
 }
 
 .mid-bar h1{
-  font-size: 18px;
-  font-weight: bold;
   padding-bottom: 16px;
   color:#900;
 }

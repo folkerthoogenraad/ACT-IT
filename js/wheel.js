@@ -33,6 +33,6 @@ function draw(x, y){
   ctx.clearRect(0,0,canvas.width, canvas.height);
   ctx.fillStyle = "blue";
   ctx.beginPath();
-  ctx.arc(canvas.width / 2 + x,canvas.height /2 +y,canvas.width/2 - 40, 0,Math.PI*2,true); // Outer circle
+  ctx.arc(canvas.width / 2 + x,canvas.height /2 +y,canvas.width/2 - 16, 0,Math.PI*2,true); // Outer circle
   ctx.fill();
 }
