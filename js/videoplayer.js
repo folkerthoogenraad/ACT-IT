@@ -17,7 +17,6 @@ function redraw(){
 }
 
 window.onload = function(){
-  alert('This does work however');
   canvas = document.getElementById('videocanvas');
   vid = document.getElementById('video');
   ctx = canvas.getContext('2d');
